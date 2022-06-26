@@ -4,7 +4,8 @@ import Post from './pages/Post';
 import About from './pages/About';
 import Catgories from './pages/Categories';
 import CreateArticle from './pages/Create-Article';
-import Posts from './components/Posts';
+import PostDashboard from './pages/Post-Dashboard';
+import Profile from './pages/Profile';
 
 
 function App() {  
@@ -17,7 +18,8 @@ function App() {
         <Route path='/categories' element={<Catgories />} />
         <Route path='/about' element={<About />} />
         <Route path='/create-post' element={<CreateArticle />} />
-        <Route path='/dashboard' element={<Posts />} />
+        <Route path='/dashboard' element={<PostDashboard />} />
+        <Route path='/profile' element={<Profile />} />
       </Routes>
     </BrowserRouter>
   );

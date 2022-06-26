@@ -5,9 +5,9 @@ export default function PostTable() {
         <h4>All Posts</h4>
       </div>
       <div class="card-body">
-        <div class="float-left">
+        <div class="float-left" style={{ width: '50%'}}>
 
-          <select class="js-example-basic-single" name="state">
+          <select class="js-example-basic-single" name="state" style={{ width: '50%'}}>
             <option value="AL">Alabama</option>
             ...
             <option value="WY">Wyoming</option>
@@ -49,18 +49,11 @@ export default function PostTable() {
                 </td>
                 <td>
                   <a href="#">
-                    <img alt="image" src="assets/img/users/user-1.png" class="rounded-circle" width="35" data-toggle="title" title="" />
                     <span class="d-inline-block ml-1">Cara Stevens</span>
                   </a>
                 </td>
                 <td>Post Title 1
-                  <div class="table-links">
-                    <a href="#">View</a>
-                    <div class="bullet"></div>
-                    <a href="#">Edit</a>
-                    <div class="bullet"></div>
-                    <a href="#" class="text-danger">Trash</a>
-                  </div>
+                  
                 </td>
                 <td>
                   <a href="#">Science</a>
@@ -71,130 +64,7 @@ export default function PostTable() {
                   <div class="badge badge-warning">Pending</div>
                 </td>
               </tr>
-              <tr>
-                <td>
-                  <div class="custom-checkbox custom-control">
-                    <input type="checkbox" data-checkboxes="mygroup" class="custom-control-input" id="checkbox-3" />
-                    <label for="checkbox-3" class="custom-control-label">&nbsp;</label>
-                  </div>
-                </td>
-                <td>
-                  <a href="#">
-                    <img alt="image" src="assets/img/users/user-2.png" class="rounded-circle" width="35" data-toggle="title" title="" />
-                    <span class="d-inline-block ml-1">Sarah Smith</span>
-                  </a>
-                </td>
-                <td>Post Title 2
-                  <div class="table-links">
-                    <a href="#">View</a>
-                    <div class="bullet"></div>
-                    <a href="#">Edit</a>
-                    <div class="bullet"></div>
-                    <a href="#" class="text-danger">Trash</a>
-                  </div>
-                </td>
-                <td>
-                  <a href="#">Software Developer</a>
-                </td>
-                <td>10-05-2018</td>
-                <td>4,785</td>
-                <td>
-                  <div class="badge badge-primary">Published</div>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="custom-checkbox custom-control">
-                    <input type="checkbox" data-checkboxes="mygroup" class="custom-control-input" id="checkbox-4" />
-                    <label for="checkbox-4" class="custom-control-label">&nbsp;</label>
-                  </div>
-                </td>
-                <td>
-                  <a href="#">
-                    <img alt="image" src="assets/img/users/user-3.png" class="rounded-circle" width="35" data-toggle="title" title="" />
-                    <span class="d-inline-block ml-1">Rizal Fakhri</span>
-                  </a>
-                </td>
-                <td>Post Title 3
-                  <div class="table-links">
-                    <a href="#">View</a>
-                    <div class="bullet"></div>
-                    <a href="#">Edit</a>
-                    <div class="bullet"></div>
-                    <a href="#" class="text-danger">Trash</a>
-                  </div>
-                </td>
-                <td>
-                  <a href="#">Web Developer</a>
-                </td>
-                <td>25-06-2018</td>
-                <td>1,458</td>
-                <td>
-                  <div class="badge badge-primary">Published</div>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="custom-checkbox custom-control">
-                    <input type="checkbox" data-checkboxes="mygroup" class="custom-control-input" id="checkbox-5" />
-                    <label for="checkbox-5" class="custom-control-label">&nbsp;</label>
-                  </div>
-                </td>
-                <td>
-                  <a href="#">
-                    <img alt="image" src="assets/img/users/user-4.png" class="rounded-circle" width="35" data-toggle="title" title="" />
-                    <span class="d-inline-block ml-1">Hasan Basri</span>
-                  </a>
-                </td>
-                <td>Post Title 4
-                  <div class="table-links">
-                    <a href="#">View</a>
-                    <div class="bullet"></div>
-                    <a href="#">Edit</a>
-                    <div class="bullet"></div>
-                    <a href="#" class="text-danger">Trash</a>
-                  </div>
-                </td>
-                <td>
-                  <a href="#">Social Service</a>
-                </td>
-                <td>11-02-2017</td>
-                <td>5,250</td>
-                <td>
-                  <div class="badge badge-danger">Draft</div>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <div class="custom-checkbox custom-control">
-                    <input type="checkbox" data-checkboxes="mygroup" class="custom-control-input" id="checkbox-1" />
-                    <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
-                  </div>
-                </td>
-                <td>
-                  <a href="#">
-                    <img alt="image" src="assets/img/users/user-5.png" class="rounded-circle" width="35" data-toggle="title" title="" />
-                    <span class="d-inline-block ml-1">Hasan Basri</span>
-                  </a>
-                </td>
-                <td>Post Title 5
-                  <div class="table-links">
-                    <a href="#">View</a>
-                    <div class="bullet"></div>
-                    <a href="#">Edit</a>
-                    <div class="bullet"></div>
-                    <a href="#" class="text-danger">Trash</a>
-                  </div>
-                </td>
-                <td>
-                  <a href="#">Politics</a>
-                </td>
-                <td>25-05-2018</td>
-                <td>952</td>
-                <td>
-                  <div class="badge badge-warning">Pending</div>
-                </td>
-              </tr>
+              
             </tbody></table>
         </div>
         <div class="float-right">
